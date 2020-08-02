@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/about_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/about"
+        android:background="@android:color/holo_blue_bright"
+        />
+    <Button
+        android:id="@+id/place_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/place_to_visit"
+        android:background="@color/brown"
+        />
+
+    <Button
+        android:id="@+id/restaurant_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/restaurant"
+        android:background="@android:color/holo_orange_dark"
+        />
+
+    <Button
+        android:id="@+id/park_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/park_to_visit"
+        android:background="@android:color/holo_green_light"
+        />
+
+
+</LinearLayout>

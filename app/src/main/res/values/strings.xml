@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Tour Guide</string>
+    <string name="about">About Delhi</string>
+    <string name="place_to_visit">Places to Visit</string>
+    <string name="park_to_visit">Parks to Visit</string>
+    <string name="restaurant">Top Restaurant in Delhi</string>
+</resources>
